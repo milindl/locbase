@@ -45,7 +45,6 @@ h1 = Happening("A strange voice whispers in your ear", trigger = Trigger.locatio
 h = Happening("All your items are taken away magically", trigger = Trigger.location_based, action_call = take_item)
 l1 = Location("A round room with a mysterious smell permeating the air", "A golden door")
 l1.add_object(o4)
-''' '''
 l2 = Location("A small attic which smells musty", "A door above", [o31, o32, o33, o34, o35], [h1])
 l3 = Location("A wide passageway surrounded by golden statues", "An open doorway", [o1], [h])
 l4 = Location("A park, with a fountain gushing water all over the central statue", "A rusted gate", [o2])
