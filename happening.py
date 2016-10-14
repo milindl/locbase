@@ -2,10 +2,10 @@ from enum import Enum
 
 class Trigger(Enum):
     location_based = 1
-    action_based = 2
-    call_based = 3
+    call_based = 2
 
 def _default_action(happening, hap_list, game_state):
+    print(happening.nature)
     hap_list.remove(happening)
     return game_state
 
